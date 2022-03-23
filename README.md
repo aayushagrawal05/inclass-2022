@@ -1,6 +1,11 @@
 # student-site
 
-An example student website, hosted by [GitHub Pages](https://pages.github.com/).
+An example student website, hosted by [GitHub Pages]
+
+Hi this is my website.
+Hello.
+
+(https://pages.github.com/).
 
 View live in production at https://prof-rossetti.github.io/student-site.
 
