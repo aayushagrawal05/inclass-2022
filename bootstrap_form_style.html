@@ -92,7 +92,9 @@
         BOOTSTRAP FORM
         https://getbootstrap.com/docs/5.0/forms/overview/
       -->
-
+      <div id="my-container">
+          <p id="my-message">some placeholder content</p>
+      </div>
       <form class="mx-auto" style="max-width: 350px; margin-top:2em;">
         <h3>My Form</h3>
 
@@ -188,5 +190,21 @@
         console.log("Thanks for the page visit!")
 
     </script>
+<script type="text/javascript">
+
+    // select elements from the DOM by specifying their unique identifiers:
+    var myDiv = document.getElementById("my-container")
+    var myParagraph = document.getElementById("my-message")
+  
+    // manipulate properties of an element:
+    myParagraph.innerHTML = "Fun times!"
+    myParagraph.style.color = "red"
+  
+    // can even create new elements:
+    var myHeading = document.createElement("h3")
+    myHeading.innerHTML = "This is a heading"
+    myDiv.appendChild(myHeading)
+  
+  </script>
   </body>
 </html>
